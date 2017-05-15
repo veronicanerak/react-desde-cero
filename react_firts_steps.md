@@ -10,18 +10,19 @@ Podemos agregar contenido en cualquier seccion y ver el resultado en la region i
 ![Editando codigo en codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/thinking-in-react-codepen.png)
 
 ## 3. Como exportar y correr ejemplos de codepen en tu computadora
-    * Exportar el codigo: Click en el boton "Export"
-    ![Exportar codigo de codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/export-codepen-code.png)
+    * Exportar el codigo: Click en el boton `Export`
+![Exportar codigo de codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/export-codepen-code.png)
     * Descomprimir lo que acabamos de exportar, tendremos la siguiente estructura:
-		![Estructura ejemplo codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/codepen-structure.png)
-		Click en: index.html (el archivo principal de la aplicacion)
+![Estructura ejemplo codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/codepen-structure.png)
+ Click en: index.html (el archivo principal de la aplicacion)
     * Hecho, ya vemos el ejemplo corriendo correctamente
-    ![proyecto Codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/codepen-example.png)
+![proyecto Codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/codepen-example.png)
 
 ## 4. Por que no se puede editar?
-Si intentaste editar los archivos te habras dado cuenta que no es posible editar porque el archivo `js/index.js` es el archivo javascript con el codigo ya `traspilado/compilado` por Babel (https://babeljs.io/) Que es el compilador de JavaScript. Es decir no tenemos el codigo original para editarlo. 
+Si intentaste editar los archivos te habras dado cuenta que no es posible editar porque el archivo `js/index.js` es el archivo javascript con el codigo ya `traspilado/compilado` por [Babel](https://babeljs.io/) Que es el compilador de JavaScript. Es decir no tenemos el codigo original para editarlo. 
 
 ## 5. Paso a paso como pasarlo a create react app
+
 >Para ejecutar el ejemplo anterior con `create-react-app` seguir los siguientes pasos: 
 
 1. Crear la aplicación ejecutando:
