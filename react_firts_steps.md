@@ -70,9 +70,9 @@ agregar en la linea 3:
 		`import './App.css';`
 
 6. Hecho! 
-    Ejecutar yarn start (si no lo hizo anteriormente)
-    y puede aver la aplicación funcionando correctamente en el navegador:
-    ![Proyecto react](https://github.com/veronicanerak/react-desde-cero/blob/master/thinking-in-react-mock.png)
+Ejecutar `yarn start` (si no lo hizo anteriormente) y puede aver la aplicación funcionando correctamente en el navegador:
+    
+![Proyecto react](https://github.com/veronicanerak/react-desde-cero/blob/master/thinking-in-react-mock.png)
 
 
 
