@@ -13,7 +13,7 @@ Podemos agregar contenido en cualquier seccion y ver el resultado en la region i
     * Exportar el codigo: Click en el boton `Export`
 ![Exportar codigo de codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/export-codepen-code.png)
     * Descomprimir lo que acabamos de exportar, tendremos la siguiente estructura:
-![Estructura ejemplo codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/codepen-structure.png)
+![Estructura ejemplo codepen](./codepen-structure.png)
  Click en: index.html (el archivo principal de la aplicacion)
     * Hecho, ya vemos el ejemplo corriendo correctamente
 ![proyecto Codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/thinking-in-react-mock.png)
