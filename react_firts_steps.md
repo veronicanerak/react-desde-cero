@@ -5,58 +5,58 @@
 Para empezar a sumergirse en el mundo ***React*** basemonos en la documentacion oficial de [React](https://facebook.github.io/react/docs/thinking-in-react.html?) Donde sustenta los ejemplos con los conceptos claros y faciles de entender. Adicionalmente usa **Codepen** el cual permite ejecutar el codigo y poder editarlos viendo los resultados al mismo tiempo. De esa manera ejecutar ejemplos desde el primer momento lo cual facilita su comprencion.
 
 ## 2. Como ejecutar en codepen
-	Es muy intuitivo ejecutar codigo usando **codepen**. Ejemplo [veamos](http://codepen.io/rohan10/pen/qRqmjd):
-	Podemos agregar contenido en cualquier seccion y ver el resultado en la region inferior.
+Es muy intuitivo ejecutar codigo usando **codepen** Ejemplo [veamos](http://codepen.io/rohan10/pen/qRqmjd):
+Podemos agregar contenido en cualquier seccion y ver el resultado en la region inferior.
 
 ## 3. Como exportar y correr ejemplos de codepen en tu computadora
-    1. Exportar el codigo: Click en el boton "Export"
-    2. Descomprimir lo que acabamos de exportar, tendremos la siguiente estructura:
-		Ver imagen
+    * Exportar el codigo: Click en el boton "Export"
+    * Descomprimir lo que acabamos de exportar, tendremos la siguiente estructura:
+		![Exportar codigo de codepen](http://imagen export-codepen-code.png)
 		Click en: index.html (el archivo principal de la aplicacion)
-    3. Hecho, ya vemos el ejemplo corriendo correctamente
+    * Hecho, ya vemos el ejemplo corriendo correctamente
 
 ## 4. Por que no se puede editar?
-   Si intentaste editar los archivos te habras dado cuenta que no es posible editar porque el archivo js/index.js
-   es el archivo javascript con el codigo ya traspilado/compilado por Babel (https://babeljs.io/) Que es el compilador de JavaScript. Es decir no tenemos el codigo original para editarlo.
+Si intentaste editar los archivos te habras dado cuenta que no es posible editar porque el archivo js/index.js es el archivo javascript con el codigo ya traspilado/compilado por Babel (https://babeljs.io/) Que es el compilador de JavaScript. Es decir no tenemos el codigo original para editarlo.
 
 ## 5. Paso a paso como pasarlo a create react app
-Para ejecutar el ejemplo anterior con "create-react-app" seguir los siguientes pasos: 
+>Para ejecutar el ejemplo anterior con "create-react-app" seguir los siguientes pasos: 
 
 1. Crear la aplicación ejecutando:
-    create-react-app nombre_aplicacion
+    `create-react-app nombre_aplicacion`
 
 2. Levantar el servicio, ingresar a nombre_aplicacion y ejecutar:
-    cd nombre_aplicacion
-    yarn start
+    `cd nombre_aplicacion`
+    `yarn start`
 
-3. Hacer correr la aplicación de: http://codepen.io/rohan10/pen/qRqmjd
-       a) Abrir la aplicación creada y copiar el contenido de HTML en:   
-  		nombre_aplicacion/public/index.html
+3. Hacer correr la aplicación de: [codepen](http://codepen.io/rohan10/pen/qRqmjd)
+    * Abrir la aplicación creada y copiar el contenido de HTML en:   
+  		`nombre_aplicacion/public/index.html`
 
-	b) Copiar el contenido de CSS en:
-		nombre_aplicacion/src/App.css
+    * Copiar el contenido de CSS en:
+		`nombre_aplicacion/src/App.css`
 
-	c) Copiar JS en:
- 		nombre_aplicacion/src/App.js
+    * Copiar JS en:
+        `nombre_aplicacion/src/App.js`
 
-4. Ejecutar:  
-	yarn start
+    * Ejecutar:  
+         `yarn start`
 
-   en la consola se vera muchos errores, ver la imagen . Sin asustarse importando los archivos faltantes y algun otro cambio lo solucionamos.
+en la consola se vera muchos errores, ver la imagen . Sin asustarse importando los archivos faltantes y algun otro cambio lo solucionamos.
 
-5. Empezamos a corregir los errores:
-	a) Importar React. Agregar en el archivo:  nombre_aplicacion/src/App.js en la linea 1
-		import React, { Component } from 'react';
+4. Empezamos a corregir los errores:
+    a) Importar React. Agregar en el archivo:  nombre_aplicacion/src/App.js en la linea 1
+		`import React, { Component } from 'react';`
 
-	b) Si vemos la jerarquía de los componentes vemos que el componente principal es: FilterableProductTable. Revisemos el archivo nombre_aplicacion/src/index.js
+    b) Si vemos la jerarquía de los componentes vemos que el componente principal es: FilterableProductTable. Revisemos el archivo 	 
+    	`nombre_aplicacion/src/index.js`
 
-	c) Importamos el componente principal reemplazando App por FilterableProductTable (que es el componente principal)  (Ver la imagen)
-	d) Importamos ReactDOM. Ir al archivo nombre_aplicacion/src/App.js
+    c) Importamos el componente principal reemplazando App por `FilterableProductTable` (que es el componente principal)  (Ver la imagen)
+    d) Importamos `ReactDOM`. Ir al archivo `nombre_aplicacion/src/App.js`
  		y agregar en la linea 2: 
-		import ReactDOM from 'react-dom';
-	e) Importamos el archivo que contiene los estilos. En el mismo archivo nombre_aplicacion/src/App.js
+		`import ReactDOM from 'react-dom';`
+	e) Importamos el archivo que contiene los estilos. En el mismo archivo `nombre_aplicacion/src/App.js`
 agregar en la linea 3:
-		import './App.css';
+		`import './App.css';`
 
 6. Hecho! 
     Ejecutar yarn start (si no lo hizo anteriormente)
