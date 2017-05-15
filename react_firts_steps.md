@@ -16,7 +16,7 @@ Podemos agregar contenido en cualquier seccion y ver el resultado en la region i
 ![Estructura ejemplo codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/codepen-structure.png)
  Click en: index.html (el archivo principal de la aplicacion)
     * Hecho, ya vemos el ejemplo corriendo correctamente
-![proyecto Codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/codepen-example.png)
+![proyecto Codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/thinking-in-react-mock.png)
 
 ## 4. Por que no se puede editar?
 Si intentaste editar los archivos te habras dado cuenta que no es posible editar porque el archivo `js/index.js` es el archivo javascript con el codigo ya `traspilado/compilado` por [Babel](https://babeljs.io/) Que es el compilador de JavaScript. Es decir no tenemos el codigo original para editarlo. 
@@ -50,6 +50,7 @@ en la consola se vera muchos errores, como vemos en la siguiente imagen . Sin as
 ![Errores codepen](https://github.com/veronicanerak/react-desde-cero/blob/master/errors-compile.png)
 
 4. Empezamos a corregir los errores:
+
     a) Importar React. Agregar en el archivo:  `nombre_aplicacion/src/App.js` en la linea 1
 		`import React, { Component } from 'react';`
 
@@ -64,7 +65,7 @@ en la consola se vera muchos errores, como vemos en la siguiente imagen . Sin as
     d) Importamos `ReactDOM`. Ir al archivo `nombre_aplicacion/src/App.js`
  		y agregar en la linea 2: 
 		`import ReactDOM from 'react-dom';`
-	e) Importamos el archivo que contiene los estilos. En el mismo archivo `nombre_aplicacion/src/App.js`
+    e) Importamos el archivo que contiene los estilos. En el mismo archivo `nombre_aplicacion/src/App.js`
 agregar en la linea 3:
 		`import './App.css';`
 
